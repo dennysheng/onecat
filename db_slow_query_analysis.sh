@@ -9,7 +9,7 @@
 #	-h, --host 目的数据库地址，
 #	-t, --top-queries 慢查询请求数，
 #	-r, --recipients 结果收件人地址，
-# Usage: Crontab 中添加: 30 04 * * * /bin/bash /opt/dsheng/db_slow_query_analysis.sh -h db.lan -t 10 -r ops@emao.com &> /var/log/nginx/ops/mysql/db_slow_query.log
+# Usage: Crontab 中添加: 30 04 * * * /bin/bash /opt/dsheng/db_slow_query_analysis.sh -h db.lan -t 10 -r dennysheng@outlook.com &> /var/log/nginx/ops/mysql/db_slow_query.log
 
 showhelp()
 {
